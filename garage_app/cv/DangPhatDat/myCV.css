@@ -1,5 +1,9 @@
+
+ul{
+    list-style-type: none;
+}
 .container {
-    background-color: rgba(225, 239, 255, 0.8);
+    background-color: rgba(225, 239, 255, 0.455);
 }
 .header {
     display: flex;
@@ -13,7 +17,7 @@
     flex:1;
 }
 .header__contact ul{
-    list-style-type: none;
+    
     display: flex;
     justify-content: space-evenly;
 
