@@ -26,13 +26,15 @@ body {
   justify-content: center;
   padding: 40px 20px;
   gap: 40px;
+  
 }
 
 .teammember {
   background: none;
-  width: 250px;
+  width: 220px;
   text-align: center;
   padding: 20px;
+
 }
 
 .teammember img {
