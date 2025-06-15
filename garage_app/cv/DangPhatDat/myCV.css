@@ -1,0 +1,27 @@
+.container {
+    background-color: rgba(225, 239, 255, 0.8);
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__logo{
+    flex:2;
+}
+.header__contact {
+    flex:1;
+}
+.header__contact ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.header-icon i {
+    height: 50px;
+}
+.main-content{
+    display: flex;
+    flex-direction: column;
+}
