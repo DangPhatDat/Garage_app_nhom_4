@@ -7,6 +7,7 @@ a{
 p{
     line-height: 30px;
     font-size: larger;
+    font-weight: 300;
 }
 .container {
     background-color: rgba(225, 239, 255, 0.455);
@@ -56,7 +57,7 @@ p{
     padding: 10px 20px;
     border-radius: 24px;
     font-weight: 600;
-    font-size: 1rem;
+    font-size:  16px;
     box-shadow: -4px 4px 0px rgba(67, 55, 196, 0.305);
 }
 .header__nav-item {
@@ -75,6 +76,9 @@ p{
     align-items: center;
     justify-items: center;
     padding: 0px 50px;
+    background-color: rgba(216, 232, 255, 0.3);
+    border-radius: 20px;
+    margin: 20px;
 }
 .main-content__block h2{
     border-bottom: 2px solid gray ;
@@ -176,9 +180,54 @@ p{
     color: rgb(70, 87, 113);
     padding: 0px 50px;
 }
-#crab{
-    /* grid-column: 2/3; */
+#skills {
+    
+    padding: 40px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    text-align: center;
 }
-#skills{
+#skills h2{
+    padding: 10px 50px;
+    align-self: center;
+}
 
+#skills h3 {
+    font-size: x-large;
+    color: rgb(73, 92, 119);
+    margin-bottom: 10px;
+}
+
+.program-language-list,
+.tools-list,
+.office-app-list,
+.personal-skill-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 200px));
+    gap: 10px;
+    padding: 0px 50px;
+    margin: 0;
+    width: 100%;
+}
+
+.program-language-item,
+.tools-item,
+.office-app-item,
+.personal-skill-item {
+    background-color: rgb(210, 220, 255);
+    padding: 10px 16px;
+    border-radius: 15px;
+    box-shadow: -3px 3px 0px rgba(67, 55, 196, 0.2);
+    font-weight: bold;
+    color: rgb(70, 87, 113);
+}
+
+.program-language-item:hover,
+.tools-item:hover,
+.office-app-item:hover,
+.personal-skill-item:hover {
+    background-color: rgb(215, 232, 252);
+    transform: translateY(-3px);
 }
