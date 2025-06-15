@@ -10,45 +10,63 @@
 <body>
     <div class="container">
         <div class="header">
+            <div class="banner">
+                <h1>ĐẶNG PHÁT ĐẠT</h1>
+                <p>Sinh viên ngành công nghệ thông tin</p>  
+            </div>
             <div class="header__logo">
-                <img id="logo" src="#" alt="hinh dai dien (logo)">
-                <p id="logo-name">Đặng Phát Đạt</p>
+                <img id="logo" src="./img/anh_thong_tin.jpg" alt="hinh chan dung">
             </div>
-            <div class="header__contact">
-                <ul class="icon-list">
-                    <li class="header-icon">
-                        <a href="#"><i class="fa-brands fa-instagram fa-2x"  style="color: #4d98e3e2;"></i></a>
-                        <!-- ig -->
-                    </li>
-                    <li class="header-icon">
-                        <a href="#"><i class="fa-brands fa-facebook fa-2x" style="color: #4d98e3e2;"></i></a>
-                        <!-- fb -->
-                    </li>
-                    <li class="header-icon">
-                        <a href="#"><i class="fa-brands fa-github fa-2x"  style="color: #4d98e3e2;"></i></a>
-                        <!-- github -->
-                    </li>
+            
+            <nav class="header__navbar">
+                <ul class="header__nav-list"> <!--dat tag a o de chon ca box li-->
+                    <a class="header__nav-item" href="#about"><li>Thông tin cá nhân</li></a>
+                    <a class="header__nav-item"  href="#professional-goals"><li>Mục tiêu</li></a>
+                    <a class="header__nav-item"  href="#hobbies"><li>Sở thích </li></a>
+                    <a class="header__nav-item"  href="#skills"><li>Kỹ năng</li></a>
+                    <a class="header__nav-item"  href=""><li>Chứng chỉ & Giải thưởng</li></a>
+                    <a class="header__nav-item"  href=""><li>Dự án</li></a>
+                    <a class="header__nav-item"  href=""><li>Liên hệ</li></a>
                 </ul>
-            </div>
+            </nav>  
         </div>
         <div class="main-content">
-            <section id="hero">
-                <div class="pic">
+            <section class="main-content__block" id="about">
+                <div id="about__content">
+                    <h2>Đạt là ai ???</h2>
+                    <p>Xin chào!</p>
+                    <p>Mình là <b>Đặng Phát Đạt</b>, hiện đang là sinh viên năm thứ 2 ngành Công nghệ Thông tin tại trường <a href=""><b>Đại Học Giao Thông Vận Tải Thành Phố Hồ Chí Minh</b></a>.</p>
+                    <p>Sinh ngày: 31/01/2005</p>
+                    <p>Quê quán: Thành phố Dĩ An, tỉnh Bình Dương</p>
+                </div>
+                <div id="about__img">
                     <img src="./img/chan_dung.jpg" alt="hinh chan dung">
                 </div>
-                <h2>ĐẶNG PHÁT ĐẠT</h2>
-                <p>Sinh viên ngành công nghệ thông tin</p>
-                
             </section>
-            <section id="about">
-
-                <h2>Đạt là ai ???</h2>
-                <p>Xin chào!</p>
-                <p>Mình là Đặng Phát Đạt, hiện đang là sinh viên năm thứ 2 ngành Công nghệ Thông tin tại trường Đại Học Giao Thông Vận Tải Thành Phố Hồ Chí Minh. Thích chơi thể thao (các môn biết chơi), chơi các tựa game giải đố, trí tuệ. </p>
-
-                
+            <section class="main-content__block" id="professional-goals">
+            <!-- muc tieu -->
+            <h2>Mục tiêu</h2>
+            <p><i class="fa-solid fa-laptop-code"></i> Trở thành <strong>fullstack developer</strong> đa năng trong công việc và thông thạo nhiều ngôn ngữ khác nhau.<i class="fa-solid fa-terminal"></i></i> </p>
+            <p><i class="fa-solid fa-person-chalkboard"></i> Trở thành giáo viên tin học bậc tiểu học, THCS thậm chí là THPT. </p>
             </section>
-            <section id="education">
+            <section class="main-content__block"  id="hobbies"> 
+            <!-- so thich -->
+                <h2>Sở thích</h2>
+                <div id="badminton">
+                    <h3>Cầu lông<i class="fa-solid fa-medal fa-bounce"></i></h3>
+                    <img src="./img/cau_long.jpg" alt="hinh cau long">
+                </div>
+                <div id="volleyball">
+                    <img src="./img/bong_chuyen.jpg" alt="hinh bong chuyen">
+                    <h3>Bóng chuyền<i class="fa-solid fa-volleyball fa-spin"></i></h3>
+                </div>
+                <div id="video-game">
+                    <img src="./img/it_takes_two.jpg" alt="hinh game it takes two">
+                    <h3>Game nhập vai - tư duy - giải đố.<i class="fa-solid fa-gamepad fa-beat-fade"></i></h3>
+                    <img src="./img/Another_Crab's_Treasure.jpg" alt="hinh game Another Crab's Treasure ">
+                </div>
+            </section>
+            <!-- <section id="education">
                 <h2>HỌC VẤN</h2>
                 <ul class="edu-list">
                     <li class="edu-item">
@@ -68,9 +86,8 @@
                         <a href=""><img  src="#" alt="truong dh giao thong van tai tpHCM"></a>
                     </li>
                 </ul>
-            </section>
+            </section> -->
             <section id="skills">
-                <h2>KỸ NĂNG</h2>
                 <h3>Ngôn ngữ lập trình:</h3>
                 <ul class="program-language-list">
                     <li class="program-language-item">HTML</li>
@@ -94,15 +111,15 @@
                     <li class="office-app-item">MS PowerPoint</li>
                 </ul>
                 <h3>Kỹ năng mềm</h3>
-                <ul>
-                    <li class="">Làm việc nhóm</li>
-                    <li>Tư duy logic</li>
-                    <li>Giao tiếp</li>
-                    <li>Giải quyết vấn đề</li>
+                <ul class="personal-skill-list">
+                    <li class="personal-skill-item">Làm việc nhóm</li>
+                    <li class="personal-skill-item">Tư duy logic</li>
+                    <li class="personal-skill-item">Giao tiếp</li>
+                    <li class="personal-skill-item">Giải quyết vấn đề</li>
                 </ul>
                 
             </section>
-
+            <section class=""></section>
         </div>
         <div class="footer">
             <section id="contact">

@@ -16,7 +16,7 @@ body {
 
 .subtitle {
   margin-top: 5px;
-  font-size: 18px;
+  font-size: 20px;
   color: #cccccc;
 }
 
@@ -36,7 +36,9 @@ body {
   padding: 20px;
 
 }
-
+.teammember i{
+  margin: 0px 10px;
+}
 .teammember img {
   width: 150px;
   height: 150px;
